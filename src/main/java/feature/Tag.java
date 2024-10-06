@@ -4,9 +4,15 @@ public class Tag {
 
 public void getPage() {
 		
-		System.out.println("tag");
+		System.out.println("tag1");
 
 	}
+
+public void getPage1() {
+	
+	System.out.println("tag2");
+
+}
 
 	
 	
