@@ -1,0 +1,14 @@
+package com.qa.opencart.pages;
+
+public class MergeConflict {
+	
+	
+	public void testConflict() {
+		
+		System.out.println("learn merge conflict---PV");
+		
+	}
+	
+	
+
+}
