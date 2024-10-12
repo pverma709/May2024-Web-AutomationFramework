@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstants;
+import com.qa.opencart.listeners.AnnotationTransformer;
 import com.qa.opencart.listeners.ExtentReportListener;
 
 import io.qameta.allure.Description;
@@ -17,7 +18,8 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
-//@Listeners(ExtentReportListener.class)
+//to activate listeners if we run from test class and not from testNG.xml
+@Listeners({ExtentReportListener.class , AnnotationTransformer.class})
 	@Epic(" Epic 100: desihn page java")
 	@Story("Stroy gdfs=1236")
 	@Owner("pv")
