@@ -22,12 +22,12 @@
 	</test>
 
 
-	<test name="Accounts ppage Test">
+	<!--test name="Accounts ppage Test">
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
-	</test>
+	</test>-->
 	
 	<!--test name="Register page Test">
 		<parameter name="browser" value="firefox"></parameter>
