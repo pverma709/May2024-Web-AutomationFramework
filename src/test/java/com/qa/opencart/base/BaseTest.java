@@ -34,6 +34,7 @@ public class BaseTest {
 	@Parameters({"browser"})
 	@BeforeTest
 	public void setUp (String browserName) {
+		System.out.println("Running with webhook, ngrok and jenkins!!");
 	
 		df = new DriverFactory();
 		prop = df.initProp(); //here browser is chrome coming from properties file
